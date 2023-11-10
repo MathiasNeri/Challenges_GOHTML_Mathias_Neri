@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Nom}}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>{{.Nom}}</h1>
+    <p>Filière: {{.Filiere}}, Niveau: {{.Niveau}}, Nombre d'étudiants: {{.Nombre}}</p>
+    <ul>
+        {{range .Etudiants}}
+            <li class="student-container">
+                <div class="student-info">
+                    <div class="student-details">
+                        <strong>{{.Nom}}, {{.Prenom}}</strong><br>
+                        {{.Age}} ans
+                    </div>
+                    <img src="/data/{{.Sexe}}.png" alt="{{.Sexe}}" class="student-sex">
+                </div>
+            </li>
+        {{end}}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.student-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    width : 300px;
+    justify-content: space-between; 
+}
+
+.student-info {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.student-info img {
+
+    margin-right: 10px;
+    height: 30px;
+    width: auto;
+}
+
+.student-name {
+    text-transform: uppercase;
+}
+
+
+.student-sex {
+    margin-left: 10px;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
