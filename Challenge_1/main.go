@@ -21,7 +21,7 @@ type Promotion struct {
 }
 
 func main() {
-	http.HandleFunc("/", handler)
+	http.HandleFunc("/promo", handler)
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
 	http.Handle("/data/", http.StripPrefix("/data/", http.FileServer(http.Dir("data"))))
 	http.ListenAndServe(":8080", nil)

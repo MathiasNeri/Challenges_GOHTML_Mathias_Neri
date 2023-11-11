@@ -1,0 +1,23 @@
+/* Fichier CSS pour la page /change */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Styles spécifiques pour la parité du compteur */
+.even {
+    background-color: #D6F5FF;
+}
+
+.odd {
+    background-color: #FFF5E1;
+}
