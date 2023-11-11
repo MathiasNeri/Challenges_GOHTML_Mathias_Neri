@@ -7,8 +7,14 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h1>Compteur de Visites</h1>
-    <p>Compteur actuel : {{.Counter}}</p>
-    <p class="{{if .Even}}even{{else}}odd{{end}}">{{.Message}}</p>
+    <div class="container">
+        <header>
+            <h1>Page Change</h1>
+        </header>
+        <section class="content">
+            <p>Compteur actuel : {{.Counter}}</p>
+            <p class="{{if .Even}}even{{else}}odd{{end}}">{{.Message}}</p>
+        </section>
+    </div>
 </body>
 </html>

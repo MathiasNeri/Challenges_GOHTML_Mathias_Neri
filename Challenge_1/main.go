@@ -32,13 +32,11 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		Nom:     "Promotion 2023",
 		Filiere: "Informatique",
 		Niveau:  "Bac+3",
-		Nombre:  5,
+		Nombre:  3,
 		Etudiants: []Student{
-			{"Doe", "John", 23, "homme"},
-			{"Smith", "Jane", 21, "femme"},
-			{"Johnson", "Bob", 23, "homme"},
-			{"Williams", "Alice", 22, "femme"},
-			{"Brown", "Charlie", 24, "homme"},
+			{"RODRIGUES", "Cyril", 22, "homme"},
+			{"MEDERREG", "Kheir-eddine", 22, "homme"},
+			{"PHILIPIERT", "Alan", 26, "homme"},
 		},
 	}
 

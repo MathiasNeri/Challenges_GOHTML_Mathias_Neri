@@ -49,3 +49,7 @@ li {
     margin-bottom: 20px;
 }
 
+.promo-info {
+    display: flex;
+    flex-direction: column;
+}
