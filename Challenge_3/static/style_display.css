@@ -1,0 +1,51 @@
+/* Fichier CSS pour la page d'affichage des données utilisateur */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.info-item {
+    margin-bottom: 10px;
+}
+
+strong {
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

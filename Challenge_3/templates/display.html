@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display User Data</title>
+    <link rel="stylesheet" href="/static/style_display.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Données Utilisateur</h1>
+        </header>
+        <section class="user-info">
+            <div class="info-item">
+                <strong>Nom:</strong>
+                <span>{{.Nom}}</span>
+            </div>
+            <div class="info-item">
+                <strong>Prénom:</strong>
+                <span>{{.Prenom}}</span>
+            </div>
+            <div class="info-item">
+                <strong>Date de Naissance:</strong>
+                <span>{{.DateNaissance}}</span>
+            </div>
+            <div class="info-item">
+                <strong>Sexe:</strong>
+                <span>{{.Sexe}}</span>
+            </div>
+        </section>
+        <footer>
+            <a href="/user/init">Retour au formulaire</a>
+        </footer>
+    </div>
+</body>
+</html>
